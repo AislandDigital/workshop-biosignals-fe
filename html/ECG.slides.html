@@ -14011,6 +14011,14 @@ array or str – Vector containing the quality index ranging from 0 to 1 for "av
 </div>
 </div>
 </div></section></section><section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Example 1: ‘averageQRS’ method</p>
+
+</div>
+</div>
+</div><div class="fragment">
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
 <div class="prompt input_prompt">In&nbsp;[10]:</div>
@@ -14051,13 +14059,22 @@ array or str – Vector containing the quality index ranging from 0 to 1 for "av
 </div>
 </div>
 
-</div></section></section><section><section>
+</div></div></section></section><section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Example 2: Zhao et al. (2018) method</p>
+
+</div>
+</div>
+</div><div class="fragment">
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
 <div class="prompt input_prompt">In&nbsp;[11]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">nk</span><span class="o">.</span><span class="n">ecg_quality</span><span class="p">(</span><span class="n">ecg_cleaned</span><span class="p">,</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#</span>
+<span class="n">nk</span><span class="o">.</span><span class="n">ecg_quality</span><span class="p">(</span><span class="n">ecg_cleaned</span><span class="p">,</span>
                <span class="n">sampling_rate</span><span class="o">=</span><span class="mi">300</span><span class="p">,</span>
                <span class="n">method</span><span class="o">=</span><span class="s2">&quot;zhao2018&quot;</span><span class="p">,</span>
                <span class="n">approach</span><span class="o">=</span><span class="s2">&quot;fuzzy&quot;</span><span class="p">)</span>
@@ -14087,7 +14104,7 @@ array or str – Vector containing the quality index ranging from 0 to 1 for "av
 </div>
 </div>
 
-</div></section></section><section><section>
+</div></div></section></section><section><section>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
